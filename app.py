@@ -17,7 +17,7 @@ def download_file_cloudStorage(filename, bucket_name):
 
 if __name__ == "__main__":
     # Replace these with the actual values
-    argfilename = "example.txt"
+    argfilename = "req.txt"
     argbucketName = "bkt-26dec-shubham-v2"
 
     upload_file_cloudStorage(argfilename, argbucketName)

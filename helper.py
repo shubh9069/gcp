@@ -27,6 +27,6 @@ class GCP_helper:
         print(f"File {source_file_name} uploaded to {destination_blob_name}.")
 
 # Example usage:
-# gcp_helper = GCP_helper("your-project-id", "your-bucket-name")
-# gcp_helper.download_FILE_CLOUDSTORAGE("source_blob_name", "destination_file_name")
-# gcp_helper.upload_File_Cloud_Storage("source_file_name", "destination_blob_name")
+gcp_helper = GCP_helper("manipalpr-1677473930500", "bkt-26dec-shubham-v2")
+gcp_helper.download_FILE_CLOUDSTORAGE("source_blob_name", "destination_file_name")
+gcp_helper.upload_File_Cloud_Storage("source_file_name", "destination_blob_name")
